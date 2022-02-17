@@ -94,7 +94,6 @@ public class GreetServer {
                   } else if (Objects.equals(line, "DATETIME")) {
 
                      out.writeUTF(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(dateTime) + "\n");
-                     // out.writeUTF(new SimpleDateFormat("yyyy").format(dateTime) + "\n");
 
                   } else if (Objects.equals(line, "HELLO")) {
 

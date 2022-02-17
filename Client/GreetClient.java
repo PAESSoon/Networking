@@ -1,7 +1,3 @@
-/* implementation of a client-server application using sockets.
-The system consists of a client and a server to implement a Simple Date-Time Info Protocol 
-@Author PamelaESS
-*/
 
 import java.io.*;
 import java.net.*;
@@ -72,7 +68,6 @@ public class GreetClient {
                   }
                   System.out.print("CLIENT: ");
                } catch (IOException i) {
-                  // System.out.println(i);
                }
             }
 
